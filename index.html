@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop! the Balloons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="headingTag">POP! the balloons</h1>
+        <div id="balloon-gallery">
+        </div>
+        <div id="balloonsPoppedCount">
+            <div class="heading-PopCount">POP COUNT</div>
+            <div id="popCounter">0</div>
+        </div>
+        <div id="redballoonsPoppedCount">
+            <div class="heading-redPopCount">Red Balloons<br> Popped</div>
+            <div id="redpopCounter">0</div>
+        </div>
+        <button id="startButton">Start</button>
+        <div id="instructions">  <b>INSTRUCTIONS:</b><br>Pop 25 Balloons to Win the Game <br>Avoid Red balloons <br>If you pop 3 red balloons then you will lose the Game</div>
+        <button id="restartButton" onclick="location.reload()"><img src="./reload2.png" alt="Reload" style="width: 2rem ; height: 2rem ;" ></button>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
